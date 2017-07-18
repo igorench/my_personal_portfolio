@@ -1,0 +1,78 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+  .navigation_wrap li{
+    padding: 0 8px;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+      .navigation_wrap li{
+    padding: 0 2px;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	  .contacts_icon li {
+    padding: 10px 10px;
+  }
+  .main_footer {
+    text-align: center;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.top_wrapper .top_text h1 {
+		font-size: 2em;
+		padding:0 10px;
+	}
+	.top_wrapper .top_text p {
+		font-size: 1em;
+	}
+  .contacts_icon li {
+    padding: 10px 10px;
+  }
+  .contacts_icon {
+  	margin-top: 10px;
+  }
+  .s_contacts .s_descr {
+  	margin-bottom: 20px;
+  }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
